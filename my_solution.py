@@ -33,3 +33,9 @@ for name in aravali:
         st_scorer = name 
 
 print(f"The Second top scorer is : {st_scorer}")
+
+# Problem 4
+# Just out of curiosity, you want to find out the unique runs made by Team Aravali players.
+
+run_set = set(aravali.values())
+print(run_set)
