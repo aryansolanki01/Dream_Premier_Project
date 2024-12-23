@@ -22,3 +22,14 @@ Rohit_runs = 195 - total_runs
 
 # Update the dictionary with correct value of runs
 aravali.update({"Rohit": Rohit_runs})
+
+# Problem 3
+# Your next task is to find out who scored the second highest runs in Team Aravali
+
+second_top = sorted(list(aravali.values()), reverse=True)[1]
+
+for name in aravali:
+    if aravali[name] == second_top:
+        st_scorer = name 
+
+print(f"The Second top scorer is : {st_scorer}")
