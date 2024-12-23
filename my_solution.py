@@ -39,3 +39,13 @@ print(f"The Second top scorer is : {st_scorer}")
 
 run_set = set(aravali.values())
 print(run_set)
+
+# Problem 5
+# Team Shivalik has 6 fixed players and 5 slots for players who are playing good currently. Create two collections using appropriate data structure to write this 6 fixed and 5 mutable players. You can choose any player you want.
+
+# Available Players in the squad :
+# ['Vijay', 'Lasith', 'Dravid', 'Smith', 'Ambati', 'Hardik', 'Sushant', 'Mandeep', 'Harbhajan', 'Yuvraj', 'Jadeja','Rajeev','Amrit']
+
+fixed = ['Vijay', 'Lasith', 'Dravid', 'Smith', 'Ambati', 'Hardik']
+mutable = ['Sushant', 'Mandeep', 'Harbhajan', 'Yuvraj', 'Jadeja']
+print(fixed, mutable, sep=",")
