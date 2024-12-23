@@ -10,3 +10,15 @@ aravali ={ "Dhoni":25, "Virat":31, "Pollard":11, "Rohit": 0, "Maxwell":12, "Sach
 players_list = [p for p in aravali]
 print(players_list)
 
+
+# Problem 2
+# By mistake, the runs made by Rohit was recorded as 0. Your next task is to figure out how many runs were made by Rohit and update the dictionary
+
+# We know the total runs
+total_runs = sum(aravali.values())
+
+# Print runs scored by Rohit
+Rohit_runs = 195 - total_runs
+
+# Update the dictionary with correct value of runs
+aravali.update({"Rohit": Rohit_runs})
