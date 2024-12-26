@@ -49,3 +49,14 @@ print(run_set)
 fixed = ('Vijay', 'Lasith', 'Dravid', 'Smith', 'Ambati', 'Hardik')
 mutable = ['Sushant', 'Mandeep', 'Harbhajan', 'Yuvraj', 'Jadeja']
 print(fixed, mutable, sep=",")
+
+# Problem 6
+# Try changing fixed player and mutable players
+
+# Change fixed player
+# fixed.pop()                   #Can't be changed
+# fixed.append("Rajeev")        #Can't be changed
+
+# Change mutable player
+mutable.pop()
+mutable.append("Amrit")
