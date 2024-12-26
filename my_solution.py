@@ -46,6 +46,6 @@ print(run_set)
 # Available Players in the squad :
 # ['Vijay', 'Lasith', 'Dravid', 'Smith', 'Ambati', 'Hardik', 'Sushant', 'Mandeep', 'Harbhajan', 'Yuvraj', 'Jadeja','Rajeev','Amrit']
 
-fixed = ['Vijay', 'Lasith', 'Dravid', 'Smith', 'Ambati', 'Hardik']
+fixed = ('Vijay', 'Lasith', 'Dravid', 'Smith', 'Ambati', 'Hardik')
 mutable = ['Sushant', 'Mandeep', 'Harbhajan', 'Yuvraj', 'Jadeja']
 print(fixed, mutable, sep=",")
