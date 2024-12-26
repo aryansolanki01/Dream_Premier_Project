@@ -69,3 +69,19 @@ overs = 20
 
 # runrate = total runs devided by total overs
 runrate = (total_runs + 1) / overs
+
+# Problem 8
+
+# You have just received a secret message form your informant stating that some players of the other team are into match fixing. You have to decode a message and inform authorities about it.
+
+# You received a string "skdlfjnvuerhw qefnnaosfu qrhviudhfv wuirhv adknlkxjcier vafuvhkajn iuvhsf vasuif KJSHFKJ aeuihvasf akjfhiufe" and index of "i" are going to be "no balls".
+
+# Find the first and last no ball from the string.
+
+#First no ball
+message = "skdlfjnvuerhw qefnnaosfu qrhviudhfv wuirhv adknlkxjcier vafuvhkajn iuvhsf vasuif KJSHFKJ aeuihvasf akjfhiufe"
+
+first_noball = message.find("i") + 1
+
+# Last no ball
+last_noball = message.rfind("i") + 1
