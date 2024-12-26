@@ -60,3 +60,12 @@ print(fixed, mutable, sep=",")
 # Change mutable player
 mutable.pop()
 mutable.append("Amrit")
+
+# Problem 7
+# Find out the runrate required for Team Shivalik to win (for 20 overs)
+
+total_runs = 195
+overs = 20
+
+# runrate = total runs devided by total overs
+runrate = (total_runs + 1) / overs
