@@ -85,3 +85,24 @@ first_noball = message.find("i") + 1
 
 # Last no ball
 last_noball = message.rfind("i") + 1
+
+# Problem 9
+
+# You have given the information about fixing to the authorities and they are going to verify it during the match. But still you have to work on your strategy.
+
+# It is in your hands to automate the decision on who goes on 4th position for batting depending on following criteria:
+
+# if runs made by Team Shivalik is less than 50, Smith will play
+# if runs are between 51 to 100 then Sir Jadeja will go
+# if runs are above 100 then Hardik will play
+
+# Your code below
+B_runs = int(input())
+if 0 < B_runs < 50:
+    print("Smith will play")
+elif 50 < B_runs <= 100:
+    print("Sir Jadeja will play")
+elif B_runs > 100:
+    print("Hardik will play")
+else: 
+    print("Not valid")
